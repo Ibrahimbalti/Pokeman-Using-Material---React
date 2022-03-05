@@ -14,7 +14,7 @@ function App() {
    {/* <Route exact path='/' element={(props)=><Pokedex{...props}/>} />
    <Route  path='/:pokeid' element={(props)=><Pokemon{...props}/>}/> */}
    <Route  path='/' element={<Pokedex/>}/>
-   <Route  path='/:pokeid' element={<Pokemon/>}/>
+   <Route  path='/:pokemonid' element={<Pokemon/>}/>
  </Routes> 
    
   );
